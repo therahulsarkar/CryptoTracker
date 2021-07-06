@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #1a1a1c;
+  color: #fff;
+}
+
+.coin-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 64px;
+  color: #fff;
+}
+
+.coin-search {
+  margin-bottom: 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.coin-text {
+  margin-bottom: 32px;
+  right: 70px;
+  position: relative;
+}
+
+.coin-input {
+  padding-left: 16px;
+  width: 300px;
+  height: 50px;
+  border-radius: 4px;
+  border: none;
+  background: linear-gradient(to left, #1488cc, #2b32b2);
+  color: #e2e2e2;
+}
+
+.coin-input:focus {
+  outline: none;
+}
+.coin-input::placeholder {
+  color: #e2e2e2;
+}
+
+.name{
+  padding-top: 1vh;
+  padding-bottom: 2vh;
+}
+
+@media (max-width: 700px) {
+
+  .coin-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 1vw;
+    font-size: 1.3rem;
+  }
+
+  .name{
+    padding-bottom: 2vh;
+  }
+}
